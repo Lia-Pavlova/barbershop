@@ -19,7 +19,7 @@
         "../sass/layout/_about.scss",
         "../sass/layout/_price.scss",
         "../sass/layout/_benefits.scss",
-        "../sass/layout/_craftsman.scss",
+        "../sass/layout/_team.scss",
         "../sass/layout/_contacts.scss",
         "../sass/layout/_reserve.scss",
         "../sass/layout/_page-footer.scss"
