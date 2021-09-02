@@ -1,0 +1,82 @@
+.contacts {
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/contacts/mobile/contacts-bg.png);
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/contacts/mobile/contacts-bg@2x.png);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/contacts/tablet/img.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/contacts/tablet/img@2x.png);
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-basis: calc((100% - 30px) / 2);
+    padding-left: 100px;
+    background-image: url(../images/contacts/desktop/contact-bg.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/contacts/desktop/contact-bg@2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .contacts .section-conteiner {
+    display: flex;
+  }
+
+  .contacts__content-wrapper {
+    flex-basis: 50%;
+  }
+
+  .contacts__office-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.contacts__office-hours p {
+  margin-bottom: 0;
+}
+
+.contacts-address {
+  margin-bottom: 70px;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-link .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  fill: none;
+  stroke: var(--dark-bg-text-color);
+}
+
+.contacts-link:hover .icon,
+.contacts-link:focus .icon {
+  stroke: var(--accent-color);
+}

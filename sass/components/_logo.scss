@@ -1,0 +1,20 @@
+.logo {
+  @media screen and (min-width: 1200px) and (max-width: 1279.98px) {
+    margin-left: 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-basis: calc(100% / 12);
+    margin-left: 40px;
+  }
+}
+
+.logo .icon {
+  width: 69px;
+  height: 56px;
+  fill: var(--light-text-color);
+
+  @media screen and (min-width: 768px) {
+    fill: var(--title-color);
+  }
+}

@@ -1,0 +1,60 @@
+.socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-color);
+}
+
+.socials-list__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.socials-icons {
+  display: inline-flex;
+}
+
+.line::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: currentColor;
+}
+
+.socials-icon + .socials-icon {
+  margin-left: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.socials-icons .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--title-color);
+}
+
+.social-link:hover .icon,
+.social-link:focus .icon {
+  fill: var(--accent-color);
+}
+
+.portfolio .title-lable {
+  margin-bottom: 44px;
+}
+
+.works-list {
+  --bloks: 4;
+}
