@@ -57,9 +57,12 @@
   }
 }
 
-.about__content .title-lable,
-.about__content p {
+.about__content .title-lable {
   margin-bottom: 20px;
+}
+
+.about__content p {
+  margin-bottom: 40px;
 }
 
 .about__content .btn {
