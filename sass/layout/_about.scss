@@ -57,12 +57,17 @@
   }
 }
 
-.about__content .title-lable {
+.about__content .title-lable,
+.about__content p {
   margin-bottom: 20px;
 }
 
-.about__content p {
+.indent p {
   margin-bottom: 40px;
+
+  // &:not(:last-child) {
+  //   margin-bottom: 40px;
+  // }
 }
 
 .about__content .btn {

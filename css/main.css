@@ -900,11 +900,12 @@ address {
   }
 }
 
-.about__content .title-lable {
+.about__content .title-lable,
+.about__content p {
   margin-bottom: 20px;
 }
 
-.about__content p {
+.indent p {
   margin-bottom: 40px;
 }
 
