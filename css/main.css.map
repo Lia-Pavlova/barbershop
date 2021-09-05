@@ -6,7 +6,7 @@
         "../sass/utils/_variables.scss",
         "../sass/base/_fonts.scss",
         "../sass/base/_common.scss",
-        "../sass/base/_conteiner.scss",
+        "../sass/base/_container.scss",
         "../sass/components/_logo.scss",
         "../sass/components/_menu-btn.scss",
         "../sass/components/_menu.scss",

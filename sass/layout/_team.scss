@@ -1,7 +1,7 @@
 .craftsmen {
   background-color: var(--secondary-bg-color);
 
-  & .conteiner {
+  & .container {
     @media screen and (min-width: 768px) and (max-width: 1279.98px) {
       max-width: 450px;
     }

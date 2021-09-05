@@ -147,7 +147,7 @@ address {
 }
 
 @media screen and (max-width: 479.98px) {
-  .conteiner {
+  .container {
     max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -155,7 +155,7 @@ address {
 }
 
 @media screen and (min-width: 480px) {
-  .conteiner {
+  .container {
     max-width: 418px;
     margin-left: auto;
     margin-right: auto;
@@ -165,13 +165,13 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .conteiner {
+  .container {
     max-width: 690px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .conteiner {
+  .container {
     max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -524,7 +524,7 @@ address {
   color: var(--title-color);
 }
 
-.section-conteiner {
+.section-container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 31px;
@@ -532,28 +532,28 @@ address {
 }
 
 @media screen and (max-width: 479.98px) {
-  .section-conteiner {
+  .section-container {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .section-conteiner {
+  .section-container {
     padding-left: 39px;
     padding-right: 39px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .section-conteiner {
+  .section-container {
     padding-left: 55px;
     padding-right: 10px;
   }
 }
 
 @media screen and (min-width: 1350px) {
-  .section-conteiner {
+  .section-container {
     padding-left: 70px;
   }
 }
@@ -578,7 +578,7 @@ address {
   }
 }
 
-.page-header__conteiner {
+.page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -591,7 +591,7 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .page-header__conteiner {
+  .page-header__container {
     justify-content: space-between;
     align-items: flex-start;
     padding-left: 50px;
@@ -829,7 +829,7 @@ address {
   margin-right: 40px;
 }
 
-.about__conteiner {
+.about__container {
   display: flex;
   justify-content: space-between;
 }
@@ -1030,7 +1030,7 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .benefits .conteiner {
+  .benefits .container {
     display: flex;
     flex-direction: column;
     padding-left: 40px;
@@ -1039,7 +1039,7 @@ address {
 }
 
 @media screen and (min-width: 1200px) {
-  .benefits .conteiner {
+  .benefits .container {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 15px;
@@ -1141,7 +1141,7 @@ address {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
-  .craftsmen .conteiner {
+  .craftsmen .container {
     max-width: 450px;
   }
 }
@@ -1226,7 +1226,7 @@ address {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
-  .contacts .section-conteiner {
+  .contacts .section-container {
     display: flex;
   }
   .contacts__content-wrapper {
@@ -1381,7 +1381,7 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .page-footer .conteiner {
+  .page-footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
